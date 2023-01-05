@@ -1,6 +1,6 @@
-# Wheels for Python for Windows, linked to oneAPI MKL
+# Wheels for Python on Windows, linked to oneAPI MKL
 
-This repository provides unofficial binary wheels for open-source extension packages for Python for Windows, linked to the [Intel(r) oneAPI Math Kernel Library](https://software.intel.com/en-us/intel-mkl/) (oneAPI MKL).
+This repository provides unofficial binary wheels for open-source extension packages for Python on Windows, linked to the [Intel(r) oneAPI Math Kernel Library](https://software.intel.com/en-us/intel-mkl/) (oneAPI MKL).
 
 The files are unofficial (meaning: informal, unrecognized, personal, unsupported, no warranty, no liability, provided "as is") and made available for testing and evaluation purposes.
 
