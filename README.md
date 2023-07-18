@@ -8,7 +8,18 @@ Source code changes, if any, have been submitted to the project maintainers or a
 
 The required redistributable oneAPI runtime files are packaged in the numpy.DLLs directory.
 
-The wheels can be downloaded from the [Releases](https://github.com/cgohlke/numpy-mkl.whl/releases) page.
+The wheels can be downloaded from the [Releases](https://github.com/cgohlke/numpy-mkl-wheels/releases) page.
+
+## Release 2023.7.17
+
+Linked to oneAPI MKL 2022.2.1.
+
+- [numpy](https://github.com/numpy/numpy) 1.25.1
+- [scipy](https://github.com/scipy/scipy) 1.11.1
+- [numexpr](https://github.com/pydata/numexpr) 2.8.4
+- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.1
+- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.2
+- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.0
 
 ## Release 2023.1.4
 
@@ -21,11 +32,11 @@ Linked to oneAPI MKL 2022.2.1.
 ## Build system
 
 - Windows 10 Pro for Workstations
-- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.4
+- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.6
 - [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2022.3
 - [LLVM](https://github.com/llvm/llvm-project/releases) 15.0
-- [CPython](https://www.python.org/downloads/windows/) 3.9, 3.10, 3.11
-- [PyPy](https://www.pypy.org/download.html) 3.9
+- [CPython](https://www.python.org/downloads/windows/) 3.9, 3.10, 3.11, 3.12
+- [PyPy](https://www.pypy.org/download.html) 3.10
 
 ## Alternatives
 
