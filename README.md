@@ -71,10 +71,10 @@ Linked to oneAPI MKL 2022.2.1.
 
 ## Build system
 
-- Windows 10 Pro for Workstations
-- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.6
-- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2022.3
-- [LLVM](https://github.com/llvm/llvm-project/releases) 16.0
+- Windows 11 Pro for Workstations
+- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.8
+- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2024.0
+- [LLVM](https://github.com/llvm/llvm-project/releases) 17.0
 - [CPython](https://www.python.org/downloads/windows/) 3.9, 3.10, 3.11, 3.12
 
 ## Alternatives
