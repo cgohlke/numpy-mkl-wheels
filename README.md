@@ -6,11 +6,29 @@ The files are unofficial (meaning: informal, unrecognized, personal, unsupported
 
 Source code changes, if any, have been submitted to the project maintainers or are included in the wheels.
 
-The required redistributable oneAPI runtime files are packaged in the numpy.DLLs directory.
-
 The wheels can be downloaded from the [Releases](https://github.com/cgohlke/numpy-mkl-wheels/releases) page.
 
+## Release 2024.1.3
+
+Linked to oneAPI MKL 2024.0.0.
+Depends on the latest
+[Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+and the
+[mkl](https://pypi.org/project/mkl/),
+[intel-openmp](https://pypi.org/project/intel-openmp/), and
+[intel-fortran-rt](https://pypi.org/project/intel-fortran-rt/) 2024 packages.
+
+- [numpy](https://github.com/numpy/numpy) 1.26.3
+- [scipy](https://github.com/scipy/scipy) 1.11.4
+- [numexpr](https://github.com/pydata/numexpr) 2.8.8
+- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.8
+- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.4
+- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.0
+
 ## Release 2023.11.5
+
+<details>
+  <summary>Details</summary>
 
 Linked to oneAPI MKL 2022.2.1.
 
@@ -19,6 +37,8 @@ Linked to oneAPI MKL 2022.2.1.
 - [numexpr](https://github.com/pydata/numexpr) 2.8.7
 - [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.8
 - [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.4
+
+</details>
 
 ## Release 2023.7.17
 
