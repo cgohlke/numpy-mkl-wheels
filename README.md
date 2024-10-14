@@ -8,7 +8,27 @@ Source code changes, if any, have been submitted to the project maintainers or a
 
 The wheels can be downloaded from the [Releases](https://github.com/cgohlke/numpy-mkl-wheels/releases) page.
 
+## Release 2024.10.14
+
+Linked to oneAPI MKL 2024.2.2.
+Depends on the latest
+[Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
+and the
+[mkl](https://pypi.org/project/mkl/),
+[intel-openmp](https://pypi.org/project/intel-openmp/), and
+[intel-fortran-rt](https://pypi.org/project/intel-fortran-rt/) 2024.2 packages.
+
+- [numpy](https://github.com/numpy/numpy) 2.1.2
+- [scipy](https://github.com/scipy/scipy) 1.14.1
+- [numexpr](https://github.com/pydata/numexpr) 2.10.1
+- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.11
+- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.8
+- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.1
+
 ## Release 2024.1.3
+
+<details>
+  <summary>Details</summary>
 
 Linked to oneAPI MKL 2024.0.0.
 Depends on the latest
@@ -24,6 +44,8 @@ and the
 - [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.8
 - [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.4
 - [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.0
+
+</details>
 
 ## Release 2023.11.5
 
@@ -72,10 +94,10 @@ Linked to oneAPI MKL 2022.2.1.
 ## Build system
 
 - Windows 11 Pro for Workstations
-- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.8
-- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2024.0
-- [LLVM](https://github.com/llvm/llvm-project/releases) 17.0
-- [CPython](https://www.python.org/downloads/windows/) 3.9, 3.10, 3.11, 3.12
+- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.9
+- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2024.2.2
+- [LLVM](https://github.com/llvm/llvm-project/releases) 18.1.8
+- [CPython](https://www.python.org/downloads/windows/) 3.10, 3.11, 3.12, 3.13, 64-bit
 
 ## Alternatives
 
