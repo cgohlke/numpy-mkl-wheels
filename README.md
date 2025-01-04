@@ -8,96 +8,31 @@ Source code changes, if any, have been submitted to the project maintainers or a
 
 The wheels can be downloaded from the [Releases](https://github.com/cgohlke/numpy-mkl-wheels/releases) page.
 
-## Release 2024.10.14
+## Release 2025.1.4
 
-Linked to oneAPI MKL 2024.2.2.
+Linked to oneAPI MKL 2025 (64-bit) and 2024.2 (32-bit).
+
 Depends on the latest
 [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
 and the
 [mkl](https://pypi.org/project/mkl/),
 [intel-openmp](https://pypi.org/project/intel-openmp/), and
-[intel-fortran-rt](https://pypi.org/project/intel-fortran-rt/) 2024.2 packages.
+[intel-fortran-rt](https://pypi.org/project/intel-fortran-rt/) packages.
 
-- [numpy](https://github.com/numpy/numpy) 2.1.2
-- [scipy](https://github.com/scipy/scipy) 1.14.1
-- [numexpr](https://github.com/pydata/numexpr) 2.10.1
+- [numpy](https://github.com/numpy/numpy) 2.2.1
+- [scipy](https://github.com/scipy/scipy) 1.15.0
+- [numexpr](https://github.com/pydata/numexpr) 2.10.2
 - [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.11
 - [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.8
-- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.1
-
-## Release 2024.1.3
-
-<details>
-  <summary>Details</summary>
-
-Linked to oneAPI MKL 2024.0.0.
-Depends on the latest
-[Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-and the
-[mkl](https://pypi.org/project/mkl/),
-[intel-openmp](https://pypi.org/project/intel-openmp/), and
-[intel-fortran-rt](https://pypi.org/project/intel-fortran-rt/) 2024 packages.
-
-- [numpy](https://github.com/numpy/numpy) 1.26.3
-- [scipy](https://github.com/scipy/scipy) 1.11.4
-- [numexpr](https://github.com/pydata/numexpr) 2.8.8
-- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.8
-- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.4
-- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.0
-
-</details>
-
-## Release 2023.11.5
-
-<details>
-  <summary>Details</summary>
-
-Linked to oneAPI MKL 2022.2.1.
-
-- [numpy](https://github.com/numpy/numpy) 1.26.1
-- [scipy](https://github.com/scipy/scipy) 1.11.3
-- [numexpr](https://github.com/pydata/numexpr) 2.8.7
-- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.8
-- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.4
-
-</details>
-
-## Release 2023.7.17
-
-<details>
-  <summary>Details</summary>
-
-Linked to oneAPI MKL 2022.2.1.
-
-- [numpy](https://github.com/numpy/numpy) 1.25.1
-- [scipy](https://github.com/scipy/scipy) 1.11.1
-- [numexpr](https://github.com/pydata/numexpr) 2.8.4
-- [mkl_fft](https://github.com/IntelPython/mkl_fft) 1.3.1
-- [mkl_random](https://github.com/IntelPython/mkl_random) 1.2.2
-- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.0
-
-</details>
-
-## Release 2023.1.4
-
-<details>
-  <summary>Details</summary>
-
-Linked to oneAPI MKL 2022.2.1.
-
-- [numpy](https://github.com/numpy/numpy) 1.23.5
-- [scipy](https://github.com/scipy/scipy) 1.9.3
-- [numexpr](https://github.com/pydata/numexpr) 2.8.4
-
-</details>
+- [mkl_service](https://github.com/IntelPython/mkl-service) 2.4.2
 
 ## Build system
 
 - Windows 11 Pro for Workstations
-- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.9
-- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2024.2.2
-- [LLVM](https://github.com/llvm/llvm-project/releases) 18.1.8
-- [CPython](https://www.python.org/downloads/windows/) 3.10, 3.11, 3.12, 3.13, 64-bit
+- [Visual Studio](https://visualstudio.microsoft.com/vs/community/) 2022 Community 17.12
+- [Intel oneAPI Base and HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html#gs.miarqe) 2025 (64-bit) and 2024.2 (32-bit and ifort)
+- [LLVM](https://github.com/llvm/llvm-project/releases) 19.1.6
+- [CPython](https://www.python.org/downloads/windows/) 3.10, 3.11, 3.12, 3.13
 
 ## Alternatives
 
